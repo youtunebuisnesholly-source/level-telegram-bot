@@ -23,7 +23,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputFile
 
 # ----------------- CONFIG -----------------
 ADMIN_ID = 6952678095   # <--- твой ID, только он имеет полный доступ
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8475612207:AAEpPFlMLVaxp9aJte5gW2LFUrKKZAuQd_U")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable not set. Set it in environment (Replit Secrets / Railway env).")
 
